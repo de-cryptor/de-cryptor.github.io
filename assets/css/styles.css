@@ -8,9 +8,10 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #FFB400;
+  --first-color: #ffb703;
   --second-color: #0E2431;
-  --bar-color: #FFB400;
+  --first-bar-color: #577590;
+  --second-bar-color: #f94144;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -291,21 +292,27 @@ img{
 }
 .skills__python{
   width: 95%;
+  background-color: var(--first-bar-color);
 }
 .skills__django{
   width: 85%;
+  background-color: var(--second-bar-color);
 }
 .skills__postgres{
   width: 75%;
+  background-color: var(--first-bar-color);
 }
 .skills__mongodb{
   width: 75%;
+  background-color: var(--second-bar-color);
 }
 .skills__docker{
   width: 70%;
+  background-color: var(--first-bar-color);
 }
 .skills__rabbitmq{
   width: 70%;
+  background-color: var(--second-bar-color);
 }
 .skills__img{
   border-radius: .5rem;
